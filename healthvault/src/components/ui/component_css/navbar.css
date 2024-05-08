@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar{
+    display: flex;
+    width: 300px;
+    
+    margin: 10px;
+    flex-direction: column;
+    background-color: rgb(17, 24, 39, 1);
+    border-radius: 15px;
+    overflow: none;
+}
+
+.Logo{
+    display: flex;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+
+.nav-items{
+    padding: 5px;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+    background-color: #111827;
+    color: #fff;
+}
+
+#Health{
+    color: #fff;
+    background-color:#111827 ;
+    text-align: left;
+
+}
+
+#Vault{
+    color: #2BE168;
+    background-color:#111827 ;  
+    text-align: left;
+    margin-right: 50px;
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  
+  height: auto;
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font to all elements */
+
+
+}
+
+.container{
+  display: flex;
+  margin: 0;
+}
+.fit-container{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.home-container{
+  display: flex;
+  height: 100vh;
+}
+
+.widget{
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+  padding: 10px;
+  /* width: 70vw; */
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.rectangle{
+
+  width: 500px;
+  height: 250px;
+  background-color: #fff;
+  margin: 2px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.rect-widget{
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.rectangle-btm{
+
+  width: 70vw;
+  height: 250px;
+  background-color: #fff;
+  margin: 2px;
+  border-radius: 8px;
+}
+
+.Title{
+  
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* CSS Code for the exercise card component and its children*/
+.Card{
+  height: 300px;
+  width: 220px;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+  border-width:0px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.12rem #2BE168);
+}
+
+.Card img{
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  /* aspect-ratio: fit; */
+  
+}
+
+.Card a{
+  text-decoration: none;
+  color: #2BE168;;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #111827;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Card a:hover{
+  color: white;
+}
+
+.Card h1{
+  font-weight: bolder;
+
+}
+
+.Card h1 ::first-letter {
+  text-transform: capitalize;
+}
+
+
+/*Widget to display exercises*/
+.exe-widget{
+  display: flex;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ebeaea; */
+  border-radius: 8px;
+  padding:6px;
+  width: 80%;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+
+}
+
+/*styles for healthinfo on home page*/
+
+.info{
+  width:70vw;
+}
+
+.nutri-container{
+  height: 100vh;
+}
+
+.food-con{
+  height: auto;
+}

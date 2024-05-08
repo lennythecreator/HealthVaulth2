@@ -1,0 +1,53 @@
+.Ldn-section{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    align-content: center;
+    gap: 10px;
+    
+}
+
+.form a {
+    font-size: 25px;
+    width: 250px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.opener{
+    text-align: left;
+    margin-right: 10%;
+}
+
+.opener h1{
+    font-size: 96px;
+    font-weight: bolder;
+    color: #fff;
+    
+    
+}
+
+.opener p{
+    font-size: 25px;
+}
+
+.desc{
+    text-align: center;
+    font-size: 20px;
+}
+
